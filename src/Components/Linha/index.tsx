@@ -1,6 +1,7 @@
 import React from "react";
 import { Nome, Data, Caixa, Container } from "./styles";
 
+
 const Linha: React.FC = () => {
     return(
         <>

@@ -79,7 +79,7 @@ export const SeguraBotao = styled.div`
   background-color: yellow;
   margin-top:5%;
 
-  button{
+  a{
     width: 150px;
     height: 125px;
     background-color: black;
@@ -88,6 +88,8 @@ export const SeguraBotao = styled.div`
     margin-top:20px;
     border-radius: 10%;
     background-color: gray;
+    text-decoration:none;
+    color:black;
 
     p{
       font-size:25px;
@@ -97,7 +99,7 @@ export const SeguraBotao = styled.div`
     }
   }
 
-  button:last-child{
+  a:last-child{
   float: right;
   margin-right: 1%;
   background-color: green;

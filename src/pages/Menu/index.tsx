@@ -11,20 +11,19 @@ const Menu: React.FC = () => {
 
 
         <Segura>
-            <Botao> 
+            <Botao href="/cadastrar"> 
                 <p>
                     Gerenciar Alunos
-
                 </p>
             </Botao>
-            <Botao>
+            <Botao href="/dashboard">
                  <p>
-                 Fazer Chamada
+                    Fazer Chamada
                 </p>
             </Botao>
-            <Botao>
+            <Botao href="/escolherdata">
                 <p>
-                Gerenciar Frequencias
+                    Gerenciar Frequencias
                 </p>
             </Botao>
         </Segura>

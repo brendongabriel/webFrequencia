@@ -16,7 +16,9 @@ margin:auto;
 margin-top:15px;
 `;
 
-export const Botao = styled.div `
+export const Botao = styled.a `
+  text-decoration: none;
+  color:black;
   width: 30%;
   height: 300px;
   margin-left: 2.5% ;
