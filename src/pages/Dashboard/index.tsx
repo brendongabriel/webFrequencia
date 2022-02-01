@@ -107,7 +107,7 @@ const Dashboard: React.FC = () => {
       </SeguraTabela>
       <SeguraMenu>
         <a href="/cadastrar"><Botao><p>Cadastrar Aluno</p></Botao></a>
-        <a href=""><Botao><p>Visualizar Chamada</p></Botao></a>
+        <a href="/visualizarchamada"><Botao><p>Visualizar Chamada</p></Botao></a>
         <a onClick={() => SalvarChamada()}><Botao><p>Salvar Chamada</p></Botao></a>
       </SeguraMenu>
     </Container>
