@@ -2,13 +2,6 @@ import React from "react";
 import {Barra, Segura, Nome, SeguraInput, SeguraIdade, SeguraBotao} from "./styles";
 import {api} from "../../services/api";
 
-interface Aluno {
-    idade: number;
-    nome: string;
-    telefone: number;
-}
-
-
 const Cadastrar: React.FC = () => {
 
     const aluno = {
@@ -17,7 +10,6 @@ const Cadastrar: React.FC = () => {
         telefone: 0
     }
     async function cadastrar(): Promise<void> {
-        alert("chegou")
         aluno.idade = parseInt((document.getElementById("idade") as HTMLInputElement).value);
         aluno.nome = (document.getElementById("nome") as HTMLInputElement).value;
         aluno.telefone = parseInt((document.getElementById("telefone") as HTMLInputElement).value);
@@ -25,9 +17,7 @@ const Cadastrar: React.FC = () => {
         console.log(aluno)
         await api.post("/aluno/cadastrar", aluno);
         
-      }
-
-
+      } 
     return (
         <>
         <Barra>
