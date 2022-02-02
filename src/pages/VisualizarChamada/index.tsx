@@ -32,7 +32,7 @@ const VisualizarChamada: React.FC = () => {
   return (
     <>
     <Barra>
-      <p>Controle de Frequência</p>
+      <p>Controle de Chamada</p>
     </Barra>
       <SeguraTabela>
         <Label><p>Chamada</p></Label>
@@ -40,7 +40,7 @@ const VisualizarChamada: React.FC = () => {
           {presenca.length > 0 ? presenca.map(presenca => (
             <Linha>
               <Nome><p>{presenca.aluno}</p></Nome>   
-              <Frequencia><p>{presenca.frequencia ? "F": "P"}</p></Frequencia>
+              <Frequencia><p>{presenca.frequencia ? "P": "F"}</p></Frequencia>
               <Caixa><p>{presenca.dia.slice(0,10)} </p></Caixa>
           </Linha>
           )): ""}  

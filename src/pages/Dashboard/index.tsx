@@ -40,6 +40,7 @@ const Dashboard: React.FC = () => {
     console.log(presenca)
     
     EnviarChamada();
+    
 
   }
   

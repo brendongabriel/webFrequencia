@@ -84,7 +84,7 @@ const Editar: React.FC = () => {
     return (
         <>
         <Barra>
-          <p>Cadastro de Aluno</p>
+          <p>Editar Aluno</p>
         </Barra>
             <Segura>
                 <Nome>
